@@ -1,0 +1,16 @@
+GET http://localhost:3001/todos
+
+###
+
+POST  http://localhost:3001/todos/new 
+Content-Type: application/json
+
+{
+    "text": "Get Lolipop"
+}
+
+###
+DELETE http://localhost:3001/todos/delete/62fa062d95aaa45010074f41
+
+###
+PUT http://localhost:3001/todos/complete/62fa05fa95aaa45010074f39

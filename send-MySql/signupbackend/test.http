@@ -1,0 +1,10 @@
+POST http://localhost:4000/app/signup
+Content-Type: application/json
+
+{
+"firstName":"David",
+"lastName":"kranc",
+"email":"bomb669@gmail.com",
+"personalNumber":"1234567",
+"draftDate": "2016-07-27T13:45:00.000Z"
+}
